@@ -1,0 +1,30 @@
+#player {
+  width: 600px;
+  margin: 50px auto;
+}
+
+#waveform {
+  height: 200px;
+  position: relative;
+}
+
+#controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#playlist {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#playlist li {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+#playlist li.active {
+  font-weight: bold;
+}
